@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+          "components": {
+            "minecraft:custom_data": {
+                "ominous_ice_bottle": 1
+            }
+          }
+        }
+      }
+    }
+    },
+    "rewards": {
+      "function": "frosty_day:ominous_ice_bottle/use"
+    }
+  }
+  

@@ -1,0 +1,13 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"frozen_catcher\"}",
+        "minecraft:rarity": "uncommon",
+        "minecraft:custom_model_data": 50951,
+        "minecraft:max_damage": 256,
+        "minecraft:custom_data": {"frozen_catcher": 1}
+      }
+    }
+  ]
+  

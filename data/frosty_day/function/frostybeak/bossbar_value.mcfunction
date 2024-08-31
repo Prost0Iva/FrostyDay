@@ -1,0 +1,1 @@
+$execute store result bossbar $(bossbar_id) value run data get entity @s[predicate=frosty_day:model_id] Health

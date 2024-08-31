@@ -1,0 +1,1 @@
+tag @n[type=fishing_bobber,distance=...5] add frozen_catcher 

@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/junk",
+            "weight": 5,
+            "quality": -2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/treasure",
+            "weight": 10,
+            "quality": 2,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:fishing_hook",
+                    "in_open_water": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/fish",
+            "weight": 65,
+            "quality": -1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "frosty_day:frozen_catcher_fishing",
+            "weight": 20,
+            "quality": 4,
+            "conditions": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "minecraft:fishing_hook",
+                    "in_open_water": true
+                  },
+                  "nbt": "{Tags:[\"frozen_catcher\"]}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:gameplay/fishing"
+  }
+  

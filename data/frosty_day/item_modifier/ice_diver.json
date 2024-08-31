@@ -1,0 +1,36 @@
+[
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"ice_diver\"}",
+        "minecraft:rarity": "uncommon",
+        "minecraft:custom_model_data": 50951,
+        "minecraft:max_damage": 424,
+        "minecraft:custom_data": {"ice_diver": 1},
+        "minecraft:trim": {
+          "material": "minecraft:iron",
+          "pattern": "frosty_day:ice_diver",
+          "show_in_tooltip": false
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "ice_diver",
+              "type": "minecraft:generic.armor_toughness",
+              "amount": 1,
+              "operation": "add_value",
+              "slot": "head"
+            },
+            {
+              "id": "ice_diver",
+              "type": "minecraft:generic.armor",
+              "amount": 3,
+              "operation": "add_value",
+              "slot": "head"
+            }
+          ]
+        }
+      }
+    }
+  ]
+  

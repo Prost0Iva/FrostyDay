@@ -1,0 +1,6 @@
+give @p pig_spawn_egg[entity_data={id:"armor_stand",Invisible:1b,Silent:1b,Tags:[iceologer_summoner]},item_name='{"translate":"iceologer_spawn_egg"}']
+give @p pig_spawn_egg[entity_data={id:"armor_stand",Invisible:1b,Silent:1b,Tags:[bonebeak_summoner]},item_name='{"translate":"bonebeak_spawn_egg"}']
+give @p pig_spawn_egg[entity_data={id:"armor_stand",Invisible:1b,Silent:1b,Tags:[frostybeak_summoner]},item_name='{"translate":"frostybeak_spawn_egg"}']
+give @p minecraft:potion[minecraft:custom_model_data=50959,minecraft:potion_contents={custom_color:16777215,custom_effects:[{id:"bad_omen",duration:60000},{id:"slowness",duration:30000},{id:"weakness",duration:15000}]},item_name='{"translate":"ominous_ice_bottle"}',custom_data={"ominous_ice_bottle":1b}]
+give @p minecraft:command_block[minecraft:custom_model_data=50953,item_name='{"translate":"ice_crystal"}',custom_data={"ice_crystal":1b},rarity=uncommon]
+give @p minecraft:chain_command_block[minecraft:custom_model_data=50951,item_name='{"translate":"grimoire"}',custom_data={"grimoire":1b},rarity=common,max_damage=120,!max_stack_size,damage=0,food={nutrition:0,saturation:0,can_always_eat:1b,eat_seconds:2000000000}]

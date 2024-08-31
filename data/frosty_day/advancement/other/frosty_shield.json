@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_durability_changed",
+        "conditions": {
+          "item": {
+          "components": {
+            "minecraft:custom_data": {
+                "frosty_shield": 1
+            }
+          }
+        }
+      }
+    }
+    },
+    "rewards": {
+      "function": "frosty_day:frosty_shield/use"
+    }
+  }
+  

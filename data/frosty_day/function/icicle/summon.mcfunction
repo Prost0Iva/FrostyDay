@@ -1,0 +1,1 @@
+$summon armor_stand ~ ~ ~ {CustomName:'{"translate":"icicle"}',Tags:[icicle,no_damage],Invisible:1b,NoGravity:1b,Rotation:[$(Rotation_1)f,$(Rotation_2)f],Pose:{Head:[$(Rotation_2)f,0.0f,0.0f]},ArmorItems:[{},{},{},{id:"command_block",components:{custom_model_data:50952}}]}

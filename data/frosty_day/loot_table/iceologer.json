@@ -1,0 +1,64 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chain_command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"custom_model_data":50951,"item_name":"{\"translate\":\"grimoire\"}","custom_data":{"grimoire":1},"rarity":"common","max_damage":120,"!max_stack_size":{},"damage":0,"food":{"nutrition":0,"saturation":0,"can_always_eat":true,"eat_seconds":2000000000}}
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.05
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_model_data":50959,
+                    "minecraft:potion_contents":{
+                        "custom_color":16777215,
+                        "custom_effects":[
+                            {
+                                "id":"bad_omen",
+                                "duration":60000
+                            },
+                            {
+                                "id":"slowness",
+                                "duration":30000
+                            },
+                            {
+                                "id":"weakness",
+                                "duration":15000
+                            }
+                        ]
+                    },
+                    "item_name": "{\"translate\":\"ominous_ice_bottle\"}",
+                    "custom_data": {
+                        "ominous_ice_bottle":1
+                    }
+                  }
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
